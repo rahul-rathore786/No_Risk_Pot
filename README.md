@@ -40,6 +40,20 @@ no_risk_pot_v1/
 - MetaMask or another Web3 wallet
 - Access to PYUSD
 
+## Required APIs and Credentials
+
+The project requires the following external services and credentials:
+
+1. **Ethereum RPC URL**: For connecting to the Sepolia testnet
+
+   - You can use Infura, Alchemy, or Google's Blockchain Node Engine
+   - Add this to your `.env` file as `SEPOLIA_RPC_URL`
+
+2. **Private Key**: Your Ethereum wallet private key
+   - Export from MetaMask (use a development account, not your main wallet)
+   - Add this to your `.env` file as `PRIVATE_KEY`
+   - CAUTION: Never share your private key or commit it to version control
+
 ### Installation Steps
 
 1. Clone the repository
@@ -97,19 +111,6 @@ npm start
 
 2. The application will be available at `http://localhost:3000`
 
-## Required APIs and Credentials
-
-The project requires the following external services and credentials:
-
-1. **Ethereum RPC URL**: For connecting to the Sepolia testnet
-
-   - You can use Infura, Alchemy, or Google's Blockchain Node Engine
-   - Add this to your `.env` file as `SEPOLIA_RPC_URL`
-
-2. **Private Key**: Your Ethereum wallet private key
-   - Export from MetaMask (use a development account, not your main wallet)
-   - Add this to your `.env` file as `PRIVATE_KEY`
-   - CAUTION: Never share your private key or commit it to version control
 
 ## Security Considerations
 
